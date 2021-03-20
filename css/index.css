@@ -1,0 +1,14 @@
+@import url("reset.css");
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 980px;
+  height: 36px;
+  background-color: #252326;
+}
