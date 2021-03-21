@@ -28,7 +28,7 @@ nav ul {
   display: flex;
 }
 
-#hamburger .mobilehide a {
+#hamburger > li a {
   color: #f8fcfb;
   text-transform: uppercase;
   font-family: "Open Sans Condensed", sans-serif;
