@@ -1,0 +1,24 @@
+{
+  "name": "syntra-CSSnavigationbar",
+  "version": "1.0.0",
+  "description": "opdracht-Greet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreetVdL/syntra-CSSnavigationbar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreetVdL/syntra-CSSnavigationbar/issues"
+  },
+  "homepage": "https://github.com/GreetVdL/syntra-CSSnavigationbar#readme",
+  "scripts": {
+    "deploy": "surge . syntra-cssnavigationbar.surge.sh",
+    "start": "live-server"
+  }
+}
