@@ -191,7 +191,6 @@ main img {
 /* footer styles */
 
 footer {
-  padding: 30px;
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 300;
 }
@@ -199,7 +198,7 @@ footer {
 footer a {
   font-weight: 700;
   text-decoration: none;
-  color: #363636;
+  color: #f8fcfb;
 }
 
 footer a:hover {
