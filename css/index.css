@@ -191,11 +191,23 @@ footer a:hover {
   }
 
   #hamburgerlink:hover .icon-hamburger-icon,
-  #hamburgerlink:hover .icon-hamburger-icon::before {
+  #hamburgerlink:hover .icon-hamburger-icon::before,
+  #hamburgerlink:active .icon-hamburger-icon,
+  #hamburgerlink:active .icon-hamburger-icon::before {
     color: #c8e5ff !important;
   }
 
   #hamburger > li {
     display: none;
+  }
+
+  #hamburger {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #hamburgerlink:active ~ li {
+    display: block;
+    z-index: 1;
   }
 }
