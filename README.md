@@ -1,4 +1,4 @@
-# Syntra assignment
+# Syntra opdracht
 
 ## Navigation bar slicing
 
