@@ -190,13 +190,6 @@ footer a:hover {
     padding-bottom: 3px;
   }
 
-  #hamburgerlink:hover .icon-hamburger-icon,
-  #hamburgerlink:hover .icon-hamburger-icon::before,
-  #hamburgerlink:active .icon-hamburger-icon,
-  #hamburgerlink:active .icon-hamburger-icon::before {
-    color: #c8e5ff;
-  }
-
   #hamburger {
     display: flex;
     flex-direction: column;

@@ -2,6 +2,9 @@
 
 function showMenu() {
   const hamburgerButton = document.querySelector(".icon-hamburger-icon");
+  const hamburgerButtonIcon = document.querySelector(
+    ".icon-hamburger-icon::before"
+  );
   hamburgerButton.addEventListener("click", () => {
     const subMenuButtons = document.querySelectorAll("#hamburger > li");
     hamburgerButton.classList.toggle("activeHamburger");
