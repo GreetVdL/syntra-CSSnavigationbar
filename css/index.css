@@ -161,7 +161,7 @@ main h1 {
   font-weight: 700;
   font-size: 25px;
   padding-bottom: 20px;
-  padding-top: 10px;
+  padding-top: 30px;
   color: #f8fcfb;
 }
 
@@ -181,6 +181,11 @@ main p {
   font-size: 17px;
   color: #f8fcfb;
   line-height: 25px;
+}
+
+main img {
+  display: block;
+  padding-top: 17px;
 }
 
 /* footer styles */
