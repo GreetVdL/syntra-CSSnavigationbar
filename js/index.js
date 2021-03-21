@@ -1,3 +1,5 @@
+// function to show menu whem hamburger icon is clicked
+
 function showMenu() {
   const hamburgerButton = document.querySelector(".icon-hamburger-icon");
   hamburgerButton.addEventListener("click", () => {
@@ -9,7 +11,7 @@ function showMenu() {
   });
 }
 
-// call showMenu function when DOM loaded
+// call showMenu function when DOM has loaded
 
 window.addEventListener("DOMContentLoaded", () => {
   showMenu();
