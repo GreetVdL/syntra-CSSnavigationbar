@@ -19,6 +19,12 @@ nav {
   display: flex;
 }
 
+nav > div,
+#hamburger > li,
+#social {
+  background-color: #363636;
+}
+
 nav a {
   display: block;
   text-decoration: none;
@@ -38,13 +44,17 @@ nav ul {
   padding: 0 13px;
 }
 
-nav > div,
-#hamburger > li > a {
-  border-right: 1px solid #252326;
+#hamburger > li {
+  margin-right: 1px;
+}
+
+#hamburger > li:first-of-type {
+  margin-left: 1px;
 }
 
 #hamburger {
   margin-right: auto;
+  background-color: #252326;
 }
 
 nav > div {
@@ -118,6 +128,7 @@ nav > div a:hover,
   color: #65b4ff;
   padding-top: 5px;
   font-size: 20px;
+  background-color: #363636;
 }
 
 /* main styles */
@@ -186,9 +197,5 @@ footer a:hover {
 
   #hamburger > li {
     display: none;
-  }
-
-  nav > div {
-    border-right: none;
   }
 }
