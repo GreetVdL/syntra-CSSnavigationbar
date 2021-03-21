@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>navbar slicing</title>
     <link rel="stylesheet" href="./css/index.css" type="text/css" />
+    <link rel="stylesheet" href="./icons/style.css" type="text/css" />
   </head>
   <body>
     <div id="container">
       <nav>
-        <div></div>
+        <div>
+          <a href="#/">
+            <svg class="icon icon-house">
+              <use xlink:href="./icons/symbol-defs.svg#icon-house"></use>
+            </svg>
+          </a>
+        </div>
         <ul id="hamburger">
           <li><a href="#/">portfolio</a></li>
           <li><a href="#/">services</a></li>
@@ -19,14 +26,32 @@
           <li><a href="#/">contact</a></li>
         </ul>
         <ul id="social">
+          <li>
+            <a href="#/">
+              <svg class="icon icon-facebook">
+                <use xlink:href="./icons/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#/">
+              <svg class="icon icon-twitter">
+                <use xlink:href="./icons/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
           <li><a href="#/"></a></li>
-          <li><a href="#/"></a></li>
-          <li><a href="#/"></a></li>
-          <li><a href="#/"></a></li>
+          <li>
+            <a href="#/">
+              <svg class="icon icon-linkedin">
+                <use xlink:href="./icons/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
         </ul>
       </nav>
       <main>
-        <h1>Lorem Timmermans</h1>
+        <h1>Lorem Pallieter</h1>
         <h2>Een fijne morgend in de Mei.</h2>
         <p>
           IN die eerste Lieve vrouwkensdagen was de Lente ziek. De zon bleef weg
@@ -60,5 +85,6 @@
         </div>
       </footer>
     </div>
+    <script defer src="./icons/svgxuse.js"></script>
   </body>
 </html>

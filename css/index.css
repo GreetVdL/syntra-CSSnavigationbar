@@ -39,8 +39,30 @@ nav ul {
 }
 
 nav > div,
-#hamburger a {
+#hamburger li {
   border-right: 1px solid #252326;
+}
+
+#hamburger {
+  margin-right: auto;
+}
+
+nav > div {
+  font-size: 19px;
+  line-height: 36px;
+  padding: 2px 13px 0 13px;
+}
+
+nav > div a {
+  color: #65b4ff;
+}
+
+#social a {
+  color: #65b4ff;
+  height: 36px;
+  line-height: 36px;
+  font-size: 19px;
+  padding: 2px 13px 0 13px; /* nog anpassen */
 }
 
 /* main styles */
