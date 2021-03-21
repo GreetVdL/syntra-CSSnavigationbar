@@ -74,6 +74,10 @@ nav > div a {
   padding-right: 4px;
 }
 
+#social li:last-child a {
+  font-size: 17px;
+}
+
 .icon-google-plus-icon {
   padding: 0;
 }
