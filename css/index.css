@@ -197,6 +197,11 @@ footer a:hover {
     color: #c8e5ff;
   }
 
+  #hamburger {
+    display: flex;
+    flex-direction: column;
+  }
+
   #hamburger > li {
     display: none;
   }
