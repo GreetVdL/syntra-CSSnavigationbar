@@ -10,7 +10,7 @@
 
 ***Deployment via surge:***
 
-[syntra-cssnavigationbar.surge.sh](syntra-cssnavigationbar.surge.sh)
+[http://syntra-cssnavigationbar.surge.sh/](http://syntra-cssnavigationbar.surge.sh/)
 
 ***Deployment via vercel:***
 
