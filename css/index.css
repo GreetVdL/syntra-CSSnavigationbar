@@ -206,14 +206,12 @@ footer a:hover {
     flex-direction: column;
   }
 
-  #hamburgerlink:focus ~ li,
   #hamburgerlink:hover ~ li,
   #hamburgerlink:active ~ li {
-    display: block !important;
+    display: block;
     z-index: 1;
   }
 
-  #hamburgerlink ~ li > a:focus ~ ul,
   #hamburgerlink ~ li > a:hover ~ ul,
   #hamburgerlink ~ li > a:active ~ ul {
     display: block !important;
