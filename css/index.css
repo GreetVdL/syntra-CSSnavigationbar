@@ -207,8 +207,9 @@ footer a:hover {
   }
 
   #hamburgerlink:focus ~ li,
+  #hamburgerlink:hover ~ li,
   #hamburgerlink:active ~ li {
-    display: block;
+    display: block !important;
     z-index: 1;
   }
 }
