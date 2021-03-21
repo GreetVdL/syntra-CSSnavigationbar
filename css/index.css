@@ -194,7 +194,7 @@ footer a:hover {
   #hamburgerlink:hover .icon-hamburger-icon::before,
   #hamburgerlink:active .icon-hamburger-icon,
   #hamburgerlink:active .icon-hamburger-icon::before {
-    color: #c8e5ff !important;
+    color: #c8e5ff;
   }
 
   #hamburger > li {
