@@ -1,14 +1,76 @@
 @import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap");
 
-body {
+/* base styles */
+
+#container {
+  margin: 0 auto;
+  max-width: 980px;
+  background-color: #d4d4d4;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
+
+/* nav styles */
 
 nav {
   width: 980px;
   height: 36px;
-  background-color: #252326;
+  background-color: #363636;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+}
+
+#hamburger a {
+  color: #f8fcfb;
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  line-height: 36px;
+  font-size: 20px;
+  padding: 0 13px;
+}
+
+nav > div,
+#hamburger a {
+  border-right: 1px solid #252326;
+}
+
+/* main styles */
+
+main {
+  padding: 30px;
+}
+
+main h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  color: #363636;
+}
+
+main h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  padding-bottom: 20px;
+  padding-top: 12px;
+  color: #363636;
+}
+
+main p {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #363636;
+  line-height: 25px;
 }
