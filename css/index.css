@@ -212,4 +212,11 @@ footer a:hover {
     display: block !important;
     z-index: 1;
   }
+
+  #hamburgerlink ~ li > a:focus ~ ul a,
+  #hamburgerlink ~ li > a:hover ~ ul a,
+  #hamburgerlink ~ li > a:active ~ ul a {
+    display: block !important;
+    z-index: 1;
+  }
 }
