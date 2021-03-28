@@ -2,7 +2,7 @@
 
 ## Navigation bar slicing
 
-A navigation bar slicing assignment. I made the design mobile friendly with Javascript.
+A navigation bar slicing assignment. I made the design mobile friendly with JavaScript.
 
 <!--***Design:***
 
