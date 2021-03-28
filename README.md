@@ -2,7 +2,7 @@
 
 ## Navigation bar slicing
 
-📱 Met JavaScript is het me gelukt om ook een mobile friendly uitklapbaar hamburgermenu te maken. Ik weet niet of het de juiste aanpak is van dat zo te doen, maar ik ben wel heel blij dat het gelukt is. 😊
+A navigation bar slicing assignment. I made the design mobile friendly with Javascript.
 
 <!--***Design:***
 
